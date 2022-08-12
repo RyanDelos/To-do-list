@@ -1,0 +1,118 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+/*
+            MAIN COLOR: #f8f9fa
+            ASPECT COLOR: 
+            GREY COLOR: #343a40
+            */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f8f9fa;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3.6rem;
+  padding: 2.4rem;
+  width: 100vw;
+}
+
+.heading {
+  font-size: 3.2rem;
+  color: #1864ab;
+}
+
+.icon {
+  font-size: 4rem;
+  color: #1864ab;
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 12px;
+}
+
+.instruction-finished {
+  color: #216f30;
+}
+
+.instruction-delete {
+  color: #cc0000;
+}
+
+.task-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1.2rem;
+  width: 95%;
+}
+
+.input-text {
+  font-size: 1.4rem;
+  padding: 10px;
+  width: 85%;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+  display: block;
+  font-size: 2.4rem;
+}
+
+.btn:hover {
+  color: #216f30;
+}
+
+li {
+  list-style: none;
+  line-height: 1.7;
+  position: relative;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 1px solid #f8f9fa;
+  padding: 2px;
+}
+
+li:hover {
+  background-color: #aaa;
+  color: #216f30;
+  width: 100%;
+}

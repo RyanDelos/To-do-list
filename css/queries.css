@@ -1,0 +1,30 @@
+@media (min-width: 34em) {
+  .input-text {
+    width: 65%;
+  }
+}
+
+@media (min-width: 45em) {
+  .heading {
+    font-size: 4.4rem;
+  }
+
+  .icon {
+    font-size: 4.4rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    margin: 12px;
+  }
+
+  .input-text {
+    width: 50%;
+  }
+}
+
+@media (min-width: 75em) {
+  .input-text {
+    width: 40%;
+  }
+}

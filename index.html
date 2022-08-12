@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/bb515311f9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <h1 class="heading">TO DO LIST</h1>
+        <div class="icon"><i class="fa-solid fa-list-check"></i></div>
+        <div class="instructions">
+          <p class="instruction-finished">Click task when finished</p>
+          <p class="instruction-delete">Double click task to delete</p>
+        </div>
+        <div class="task-container">
+          <input
+            type="text"
+            placeholder="Enter Task..."
+            class="input-text"
+            name="user-input"
+          />
+          <button class="btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+
+        <div class="task-values"></div>
+      </div>
+    </main>
+
+    <foot></foot>
+    <script src="script.js"></script>
+  </body>
+</html>
